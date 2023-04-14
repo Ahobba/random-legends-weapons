@@ -19,7 +19,7 @@ def show_legend(weapon, legends, armas, x, esc):
     a = input('\nAperte enter para continuar...')
     system('cls')
 
-armas = ['Axe'], ['Hammer'], ['Katars'], ['Rocket Lance'], ['Spear'], ['Blasters'], ['Orb'],['Bow'], ['Greatsword'], ['Scythe'], ['Gauntlets'], ['Sword'], ['Cannon']
+armas = ['Axe'], ['Hammer'], ['Katars'], ['Rocket Lance'], ['Spear'], ['Blasters'], ['Orb'],['Bow'], ['Greatsword'], ['Scythe'], ['Gauntlets'], ['Sword'], ['Cannon'], ['Battle Boots']
 
 legends = [
     
@@ -30,7 +30,7 @@ legends = [
     #Katars
     ['Quenn Nai', 'Sentinel', 'Lucien', 'Asuri', 'Ember', 'Ragnir', 'Caspian', 'Lin Fei', 'Mako'],
     #Rocket Lance
-    ['Orion', 'Lord Vraxx', 'Sr. Roland', 'Scarlet', 'Ulgrim', 'Artemis', 'Vector'],
+    ['Orion', 'Lord Vraxx', 'Sr. Roland', 'Scarlet', 'Ulgrim', 'Artemis', 'Vector', 'Thea'],
     #Spear
     ['Orion', 'Gnash', 'Queen Nai', 'Hattori', 'Ada', 'Brynn', 'Wu Sang', 'Mirage', 'Kaya', 'Dusk', 'Arcadia'],
     #Blasters
@@ -44,11 +44,13 @@ legends = [
     #Scythe
     ['Mirage', 'Nix', 'Mordex', 'Artemis', 'Jiro', 'Fait', 'Volkov', 'Munin'],
     #Gauntlets
-    ['Kor', 'Wu Sang', 'Val', 'Cross', 'Mordex', 'Caspian', 'Zariel', 'Rayman', 'Petra', 'Onyx'],
+    ['Kor', 'Wu Sang', 'Val', 'Cross', 'Mordex', 'Caspian', 'Zariel', 'Rayman', 'Petra', 'Onyx', 'Tezca'],
     #Sword
     ['Bödvar', 'Hattori', 'Sr. Roland', 'Thatch', 'Asuri', 'Koji', 'Jhala', 'Val', 'Sidra', 'Jiro', 'Jaeyun', 'Ezio'],
     #Cannon
-    ['Sidra', 'Xull', 'Isaiah', 'Lin Fei', 'Onyx']
+    ['Sidra', 'Xull', 'Isaiah', 'Lin Fei', 'Onyx'],
+    #Battle boots
+    ['Tezca', 'Thea']
             ]
 
 while True:
@@ -73,7 +75,7 @@ while True:
 [1] Axe		[2] Hammer      [3]  Katars     [4]  Rocket
 [5] Spear	[6] Blasters	[7]  Orb	[8]  Bow
 [9] Greatsword	[10] Scythe	[11] Gauntlets	[12] Sword
-                                                [13] Cannon''')
+[13] Cannon     [14] Battle Boots''')
 
             try:
                 esc= int(input('\n> ')) -1
